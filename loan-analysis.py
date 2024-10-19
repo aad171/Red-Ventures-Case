@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-file_path = "Pre-Super_Day_candidate_dataset__28candidate_29.xlsx"  # Ensure the file is in the same directory as this script
+file_path = "/Users/aaditmehta/Desktop/Developer Projects/Red-Ventures-Case/Red_Ventures_Dataset.xlsx" 
 df = pd.read_excel(file_path)
 
 def explore_approvability(df):
