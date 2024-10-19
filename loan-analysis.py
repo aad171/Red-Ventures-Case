@@ -11,7 +11,7 @@ correlation_matrix = data[['Loan_Amount', 'FICO_score', 'Monthly_Gross_Income', 
 
 #Visualize Matrix
 plt.figure(figsize=(8, 6))
-sns.heatmap(corr_matrix, annot=True, cmap="coolwarm")
+sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm")
 plt.title("Correlation Matrix - Loan Approval Analysis")
 plt.show()
 
